@@ -1,0 +1,75 @@
+ body{
+ 	font-family: 'Roboto', sans-serif;
+ 	color:white;
+ 	box-sizing: border-box;
+ 	background-color: #ECEFF1;
+ }
+
+ .main-nav{
+ 	margin-top:5px;
+ 	list-style:none;
+ 	position: absolute;
+
+ }
+
+ .main-nav li {
+    display:inline-block;
+    text-align: center;
+    background-color:#01579B;
+    padding:30px 90px 30px 90px;
+    width:100px;
+}
+.main-nav li a:link, 
+.main-nav li {
+    color: #fff;
+    text-decoration:none;
+
+}
+
+.main-nav li:hover,
+.main-nav li:active{
+background-color: #9AD1E3;
+}
+
+/*-----*/
+
+
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    width:100%;
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: #A9A9A9;
+    padding: 20px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+	background-color: #ACE39A
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover li {
+    background-color: #9AD1E3;
+}
+

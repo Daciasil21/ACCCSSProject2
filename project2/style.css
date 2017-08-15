@@ -11,14 +11,14 @@ img {
     display: -webkit-flex;
     display: flex;
     width: 100%;
-    background-color: lightgrey;
+
     align-content: center;
     flex-flow: row wrap;
     
 }
 
 .flex-item {
-    background-color: cornflowerblue;
+
    	margin: 10px auto;
   
 
