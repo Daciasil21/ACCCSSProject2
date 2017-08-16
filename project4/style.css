@@ -23,12 +23,12 @@ header{
  	height:75px;
  	font-size: 25px;
  	margin-bottom:0px;
-/* 	margin-left:15px;*/
+
  	margin-top:0px;
  }
 
  .main-nav li {
-	padding:30px 60px 5px 60px;
+	padding:30px 50px 7px 50px;
     display:inline-block;
     text-align: center;   
 }
@@ -65,11 +65,11 @@ header{
 
 /* Links inside the drop */
 .drop-content a {
-	height:45px;
+	/*height:45px;*/
 	margin-top: 0;
 	line-height: 45px;
     color: #A9A9A9;
-    padding: 15px 20px;
+    padding: 15px 5px;
     text-align: center;
     text-decoration: none;
     display: block;
