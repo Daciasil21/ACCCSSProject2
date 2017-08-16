@@ -1,1 +1,1 @@
-# ACCCSSProject2
+Projects for week 2 CSS section
