@@ -15,17 +15,15 @@ header{
 
 }
 
-.glyphicon-globe {
-    font-size: 3em;
-}
-/*-------------------Dropdown Menu Styling --------------------------*/
+
+/*-------------------drop Menu Styling --------------------------*/
 .main-nav{
  	display:inline-block;
  	list-style:none;
  	height:75px;
  	font-size: 25px;
  	margin-bottom:0px;
- 	margin-left:25px;
+/* 	margin-left:15px;*/
  	margin-top:0px;
  }
 
@@ -49,24 +47,26 @@ header{
 }
 
 
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
+/* The container <div> - needed to position the drop content */
+.drop {
     position: relative;
     display: inline-block;
 }
 
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
+/* drop Content (Hidden by Default) */
+.drop-content {
     display: none;
     position: absolute;
+
     background-color:#263238;
     width:100%;
     z-index: 1;
 }
 
-/* Links inside the dropdown */
-.dropdown-content a {
+/* Links inside the drop */
+.drop-content a {
 	height:45px;
+	margin-top: 0;
 	line-height: 45px;
     color: #A9A9A9;
     padding: 15px 20px;
@@ -75,20 +75,20 @@ header{
     display: block;
 }
 
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {
+/* Change color of drop links on hover */
+.drop-content a:hover {
 	background-color: #CFD8DC;
 	transition: background-color 0.6s;
 }
 
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
+/* Show the drop menu on hover */
+.drop:hover .drop-content {
     display: block;
 }
 
 /*change the color of the menu item when sublist is hovered*/
 
-.dropdown:hover li {
+.drop:hover li {
     background-color: #546E7A;
 }
 
@@ -104,6 +104,7 @@ section h1{
 section img {
 	padding-left:30px;
 	padding-bottom:80px;
+	width:41%;
 }
 
 /*----------------begin footer--------------*/
@@ -122,9 +123,11 @@ footer h1{
 .footerNav{
 	 	display:inline-block;
  	list-style:none;
+ 	padding-left:0px;
 
 }
  .footerNav li {
+ 	font-size:1.2em;
 	padding:5px 5px;
     display:inline-block;
     text-align: center;   
